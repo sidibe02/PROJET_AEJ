@@ -1,5 +1,8 @@
-<?php include("header.php"); ?>
-
+<?php include("header.php"); ?>#!/bin/bash
+cd /workspaces/PROJET_AEJ
+git add -A
+git commit -m "Auto-save $(date +'%Y-%m-%d_%H:%M')" || true
+git push origin main
 <div class="home-container">
 
     <div class="region-box">
